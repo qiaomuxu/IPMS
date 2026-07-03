@@ -1,0 +1,51 @@
+<view class="container">
+  <view class="header">
+    <text class="title">车辆进出记录</text>
+    <button class="refresh-btn" bindtap="refreshRecords">刷新</button>
+  </view>
+
+  <view class="tabs">
+    <view class="tab {{currentTab === 'all' ? 'active' : ''}}" bindtap="switchTab" data-tab="all">全部记录</view>
+    <view class="tab {{currentTab === 'in' ? 'active' : ''}}" bindtap="switchTab" data-tab="in">在场车辆</view>
+  </view>
+
+  <view class="record-list">
+    <block wx:for="{{records}}" wx:key="id">
+      <view class="record-card" bindtap="viewDetail" data-id="{{item.id}}">
+        <view class="card-header">
+          <text class="plate-number">{{item.licensePlate}}</text>
+          <text class="plate-color {{plateColorMap[item.plateColor]}}">{{item.plateColor}}</text>
+          <view class="status-badge {{item.status}}">
+            <text>{{item.status === 'in' ? '进场' : '出场'}}</text>
+          </view>
+        </view>
+        <view class="card-body">
+          <view class="info-row">
+            <text class="label">进场时间：</text>
+            <text class="value">{{item.inTime}}</text>
+          </view>
+          <view class="info-row" wx:if="{{item.outTime}}">
+            <text class="label">出场时间：</text>
+            <text class="value">{{item.outTime}}</text>
+          </view>
+          <view class="info-row" wx:if="{{item.parkingFee}}">
+            <text class="label">停车费用：</text>
+            <text class="value fee">¥{{item.parkingFee}}</text>
+          </view>
+          <view class="info-row" wx:if="{{item.confidence}}">
+            <text class="label">识别置信度：</text>
+            <text class="value">{{item.confidence}}%</text>
+          </view>
+        </view>
+      </view>
+    </block>
+    <view class="empty-tip" wx:if="{{records.length === 0}}">
+      <text>暂无记录</text>
+    </view>
+  </view>
+
+  <view class="gate-control">
+    <button class="gate-btn open" bindtap="openGate">抬杆</button>
+    <button class="gate-btn close" bindtap="closeGate">落杆</button>
+  </view>
+</view>

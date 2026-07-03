@@ -1,0 +1,691 @@
+Dependencies for Project 'GPIO¿ØÖÆ', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060528::V5.06 update 5 (build 528)::.\ARMCC
+F (.\main.c)(0x6A06C279)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_it.h)(0x694A5C0F)
+I (..\Utilities\inc\led.h)(0x694A5C0F)
+I (..\Utilities\inc\key.h)(0x694A5C0F)
+I (..\Utilities\inc\usart.h)(0x694A5C0F)
+I (..\Utilities\inc\delay.h)(0x694A5C0F)
+I (..\Utilities\inc\lcd.h)(0x6A045E7E)
+I (..\Utilities\inc\ov7670.h)(0x694A5C0F)
+I (..\Utilities\inc\string.h)(0x694A5C0F)
+I (..\Utilities\inc\serial_image.h)(0x6A03FEFC)
+I (..\Utilities\inc\FSR.h)(0x6A045E0F)
+F (.\startup_stm32f10x_md.s)(0x694A5C0F)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include--pd "__UVISION_VERSION SETA 540" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list .\startup_stm32f10x_md.lst --xref -o .\startup_stm32f10x_md.o --depend .\startup_stm32f10x_md.d)
+F (..\Library\src\stm32f10x_it.c)(0x6A042C98)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_it.o --omf_browse .\stm32f10x_it.crf --depend .\stm32f10x_it.d)
+I (..\Library\inc\stm32f10x_it.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Utilities\src\lcd.c)(0x6A045E79)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Utilities\inc\lcd.h)(0x6A045E7E)
+I (..\Utilities\inc\delay.h)(0x694A5C0F)
+I (..\Utilities\inc\font.h)(0x694A5C0F)
+F (..\Utilities\src\delay.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Utilities\inc\delay.h)(0x694A5C0F)
+F (..\Utilities\src\debug.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\debug.o --omf_browse .\debug.crf --depend .\debug.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Utilities\src\led.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\led.o --omf_browse .\led.crf --depend .\led.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Utilities\inc\led.h)(0x694A5C0F)
+F (..\Utilities\src\usart.c)(0x6A042A6B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\usart.o --omf_browse .\usart.crf --depend .\usart.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Utilities\inc\usart.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdio.h)(0x588BD7A4)
+F (.\key.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\key.o --omf_browse .\key.crf --depend .\key.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Utilities\inc\key.h)(0x694A5C0F)
+I (..\Utilities\inc\delay.h)(0x694A5C0F)
+F (..\Utilities\src\ov7670.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\ov7670.o --omf_browse .\ov7670.crf --depend .\ov7670.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Utilities\inc\ov7670.h)(0x694A5C0F)
+F (..\Utilities\src\string.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\string.o --omf_browse .\string.crf --depend .\string.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Utilities\inc\string.h)(0x694A5C0F)
+F (..\Utilities\src\FSR.c)(0x6A045A3E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\fsr.o --omf_browse .\fsr.crf --depend .\fsr.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\Utilities\inc\FSR.h)(0x6A045E0F)
+I (..\Utilities\inc\delay.h)(0x694A5C0F)
+F (..\Library\src\stm32f10x_cec.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_cec.o --omf_browse .\stm32f10x_cec.crf --depend .\stm32f10x_cec.d)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Library\src\stm32f10x_dbgmcu.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_dbgmcu.o --omf_browse .\stm32f10x_dbgmcu.crf --depend .\stm32f10x_dbgmcu.d)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Library\src\stm32f10x_gpio.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_gpio.o --omf_browse .\stm32f10x_gpio.crf --depend .\stm32f10x_gpio.d)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Library\src\stm32f10x_rcc.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_rcc.o --omf_browse .\stm32f10x_rcc.crf --depend .\stm32f10x_rcc.d)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Library\src\stm32f10x_sdio.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_sdio.o --omf_browse .\stm32f10x_sdio.crf --depend .\stm32f10x_sdio.d)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Library\src\stm32f10x_usart.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_usart.o --omf_browse .\stm32f10x_usart.crf --depend .\stm32f10x_usart.d)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Library\src\stm32f10x_exti.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_exti.o --omf_browse .\stm32f10x_exti.crf --depend .\stm32f10x_exti.d)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Library\src\misc.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\misc.o --omf_browse .\misc.crf --depend .\misc.d)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+F (..\Library\src\stm32f10x_tim.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\stm32f10x_tim.o --omf_browse .\stm32f10x_tim.crf --depend .\stm32f10x_tim.d)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\CMSIS\core_cm3.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+F (..\CMSIS\system_stm32f10x.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+F (..\Common\Common.c)(0x694A5C0F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\CMSIS -I ..\Library\inc -I ..\Utilities\inc -I ..\Common-I.\RTE\_Target_1-ID:\CDEO\Software\Keil\ARM\CMSIS\6.1.0\CMSIS\Core\Include-ID:\CDEO\Software\Keil\Keil\STM32F1xx_DFP\2.4.0\Device\Include-D__UVISION_VERSION="540" -DSTM32F10X_MD -D_RTE_ -DUSE_STDPERIPH_DRIVER-o .\common.o --omf_browse .\common.crf --depend .\common.d)
+I (..\Common\common.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x.h)(0x694A5C0F)
+I (..\Utilities\inc\board.h)(0x694A5C0F)
+I (..\CMSIS\core_cm3.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdint.h)(0x588BD7A4)
+I (..\CMSIS\system_stm32f10x.h)(0x694A5C0F)
+I (..\CMSIS\stm32f10x_conf.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_adc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_bkp.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_can.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_cec.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_crc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dac.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dbgmcu.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_dma.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_exti.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_flash.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_fsmc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_gpio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_i2c.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_iwdg.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_pwr.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rcc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_rtc.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_sdio.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_spi.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_tim.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_usart.h)(0x694A5C0F)
+I (..\Library\inc\stm32f10x_wwdg.h)(0x694A5C0F)
+I (..\Library\inc\misc.h)(0x694A5C0F)
+I (D:\CDEO\Software\Keil\ARM\ARMCC\include\stdarg.h)(0x588BD7A4)
