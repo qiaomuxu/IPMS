@@ -1,0 +1,439 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zzp ZZP, zzp, LIC=BUURY-IUZWM-GK5BG-V1K5L-XKRDI-8KB5J
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  D:\CDEO\Software\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DARMSTM.DLL V1.69.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TARMSTM.DLL V1.67.1.0
+ 
+<h2>Project:</h2>
+Z:\Demo\ipms\ipms\user\GPIOøÿ÷∆.uvprojx
+Project File Date:  05/13/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\CDEO\Software\Keil\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling stm32f10x_it.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_it.c: 1 warning, 0 errors
+compiling main.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\inc\led.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Utilities\inc\delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Utilities\inc\lcd.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTK_GPIO_H */
+..\Utilities\inc\lcd.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTK_GPIO_H */
+..\Utilities\inc\ov7670.h(8): warning:  #1295-D: Deprecated declaration OV7670_Gpio_Init - give arg types
+  void OV7670_Gpio_Init();
+..\Utilities\inc\ov7670.h(9): warning:  #1295-D: Deprecated declaration SCCB_SID_change_in - give arg types
+  void SCCB_SID_change_in();//“˝Ω≈«–ªªŒ™ ‰»Î
+..\Utilities\inc\ov7670.h(10): warning:  #1295-D: Deprecated declaration SCCB_SID_change_out - give arg types
+  void SCCB_SID_change_out();//“˝Ω≈«–ªªŒ™ ‰≥ˆ
+..\Utilities\inc\ov7670.h(17): warning:  #1295-D: Deprecated declaration getAck - give arg types
+  unsigned char getAck();
+..\Utilities\inc\string.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif 
+main.c(93): warning:  #1295-D: Deprecated declaration Show_Title - give arg types
+  void Show_Title();//ÊòæÁ§∫Ê†áÈ¢ò
+main.c(294): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+ED1_GPIO_PORT, 
+ED1_GPIO_PIN,LED_flag>>7);
+main.c(303): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RS_PORT, 
+CD_RS_PIN,1);//Ê†áÂøóÂØÑÂ≠òÂô®ÂÜôÊï∞ÊçÆ
+main.c(311): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+IFO_WRST_PORT, 
+IFO_WRST_PIN, 0);    //FIFOÂÜôÊåáÈíàÂ§ç‰Ω?
+main.c(312): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+IFO_WRST_PORT, 
+IFO_WRST_PIN, 1);    //
+main.c(313): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+IFO_WR_PORT, 
+IFO_WR_PIN, 1);        //FIFOÂÜô‰ΩøËÉ?
+main.c(324): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+IFO_WR_PORT, 
+IFO_WR_PIN, 0); //FIFOÂÜôÂÖ•ÂÅúÊ≠¢
+main.c(358): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RS_PORT, 
+CD_RS_PIN,1);//Ê†áÂøóÂØÑÂ≠òÂô®ÂÜôÊï∞ÊçÆ
+main.c(366): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+IFO_WRST_PORT, 
+IFO_WRST_PIN, 0);    //FIFOÂÜôÊåáÈíàÂ§ç‰Ω?
+main.c(367): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+IFO_WRST_PORT, 
+IFO_WRST_PIN, 1);    //
+main.c(368): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+IFO_WR_PORT, 
+IFO_WR_PIN, 1);        //FIFOÂÜô‰ΩøËÉ?
+main.c(379): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+IFO_WR_PORT, 
+IFO_WR_PIN, 0); //FIFOÂÜôÂÖ•ÂÅúÊ≠¢
+main.c(383): warning:  #177-D: variable "pixel1"  was declared but never referenced
+  	u8 pixel1, pixel2;
+main.c(383): warning:  #177-D: variable "pixel2"  was declared but never referenced
+  	u8 pixel1, pixel2;
+main.c(384): warning:  #177-D: variable "j"  was declared but never referenced
+  	u32 j=0;
+main.c(543): warning:  #188-D: enumerated type mixed with another type
+              GPIO_WriteBit(
+IFO_WR_PORT, 
+IFO_WR_PIN, 0);
+main.c(495): warning:  #177-D: variable "key"  was declared but never referenced
+      u8 key;
+main.c(697): warning:  #188-D: enumerated type mixed with another type
+      GPIO_WriteBit(
+IFO_OE_PORT, 
+IFO_OE_PIN, 0);
+main.c(687): warning:  #177-D: variable "num"  was declared but never referenced
+      unsigned int num = 0;
+main.c: 29 warnings, 0 errors
+compiling delay.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\inc\delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Utilities\src\delay.c: 2 warnings, 0 errors
+assembling startup_stm32f10x_md.s...
+compiling string.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\inc\string.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Utilities\src\string.c: 2 warnings, 0 errors
+compiling lcd.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\inc\lcd.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTK_GPIO_H */
+..\Utilities\inc\lcd.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif /* __LTK_GPIO_H */
+..\Utilities\inc\delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Utilities\src\lcd.c(42): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RD_PORT, 
+CD_RD_PIN,1);
+..\Utilities\src\lcd.c(43): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_WR_PORT, 
+CD_WR_PIN,1);
+..\Utilities\src\lcd.c(44): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RS_PORT, 
+CD_RS_PIN,1);
+..\Utilities\src\lcd.c(45): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_CS_PORT, 
+CD_CS_PIN,0);//ÁâáÈÄâÔºåÊãâ‰ΩéÊúâÊïà
+..\Utilities\src\lcd.c(50): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_WR_PORT, 
+CD_WR_PIN,0);
+..\Utilities\src\lcd.c(51): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_WR_PORT, 
+CD_WR_PIN,1);
+..\Utilities\src\lcd.c(55): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RS_PORT, 
+CD_RS_PIN,0);
+..\Utilities\src\lcd.c(60): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RS_PORT, 
+CD_RS_PIN,1);
+..\Utilities\src\lcd.c(65): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_REST_PORT, 
+CD_REST_PIN,1);//ÈúÄË¶Å‰∏ÄÂÆöÁöÑÂª∂Êó∂Ôºå‰øùËØÅÂàùÂßãÂåñËøõË°å
+..\Utilities\src\lcd.c(67): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_REST_PORT, 
+CD_REST_PIN,0);
+..\Utilities\src\lcd.c(69): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_REST_PORT, 
+CD_REST_PIN,1);
+..\Utilities\src\lcd.c(186): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RS_PORT, 
+CD_RS_PIN,1);//Ê†áÂøóÔºöÊï∞ÊçÆÂÜôÂÖ?
+..\Utilities\src\lcd.c(196): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RS_PORT, 
+CD_RS_PIN,1);//Ê†áÂøóÔºöÊï∞ÊçÆÂÜôÂÖ?
+..\Utilities\src\lcd.c(273): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RS_PORT, 
+CD_RS_PIN,1);
+..\Utilities\src\lcd.c(275): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_CS_PORT, 
+CD_CS_PIN,0);//ÁâáÈÄâÔºåÊãâ‰ΩéÊúâÊïà
+..\Utilities\src\lcd.c(278): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RD_PORT, 
+CD_RD_PIN,0);
+..\Utilities\src\lcd.c(281): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RD_PORT, 
+CD_RD_PIN,1);
+..\Utilities\src\lcd.c(284): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RD_PORT, 
+CD_RD_PIN,0);
+..\Utilities\src\lcd.c(289): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RD_PORT, 
+CD_RD_PIN,1);
+..\Utilities\src\lcd.c(292): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RD_PORT, 
+CD_RD_PIN,0);
+..\Utilities\src\lcd.c(296): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CD_RD_PORT, 
+CD_RD_PIN,1);
+..\Utilities\src\lcd.c: 25 warnings, 0 errors
+compiling debug.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\src\debug.c: 1 warning, 0 errors
+compiling led.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\inc\led.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Utilities\src\led.c: 2 warnings, 0 errors
+compiling stm32f10x_dbgmcu.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_dbgmcu.c: 1 warning, 0 errors
+compiling FSR.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\inc\delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\Utilities\src\FSR.c: 2 warnings, 0 errors
+compiling key.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\inc\delay.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif 
+key.c: 2 warnings, 0 errors
+compiling usart.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\src\usart.c: 1 warning, 0 errors
+compiling ov7670.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Utilities\inc\ov7670.h(8): warning:  #1295-D: Deprecated declaration OV7670_Gpio_Init - give arg types
+  void OV7670_Gpio_Init();
+..\Utilities\inc\ov7670.h(9): warning:  #1295-D: Deprecated declaration SCCB_SID_change_in - give arg types
+  void SCCB_SID_change_in();//“˝Ω≈«–ªªŒ™ ‰»Î
+..\Utilities\inc\ov7670.h(10): warning:  #1295-D: Deprecated declaration SCCB_SID_change_out - give arg types
+  void SCCB_SID_change_out();//“˝Ω≈«–ªªŒ™ ‰≥ˆ
+..\Utilities\inc\ov7670.h(17): warning:  #1295-D: Deprecated declaration getAck - give arg types
+  unsigned char getAck();
+..\Utilities\src\ov7670.c(86): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 1);
+..\Utilities\src\ov7670.c(87): warning:  #223-D: function "delay" declared implicitly
+  	delay(DELAYTIME);
+..\Utilities\src\ov7670.c(88): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 1);
+..\Utilities\src\ov7670.c(90): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 0);
+..\Utilities\src\ov7670.c(92): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 0);
+..\Utilities\src\ov7670.c(98): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 0);
+..\Utilities\src\ov7670.c(99): warning:  #223-D: function "delay" declared implicitly
+  	delay(DELAYTIME);
+..\Utilities\src\ov7670.c(100): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 1);
+..\Utilities\src\ov7670.c(102): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 1);
+..\Utilities\src\ov7670.c(107): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 1);
+..\Utilities\src\ov7670.c(108): warning:  #223-D: function "delay" declared implicitly
+  	delay(DELAYTIME);
+..\Utilities\src\ov7670.c(109): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 1);
+..\Utilities\src\ov7670.c(111): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 0);
+..\Utilities\src\ov7670.c(113): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 0);
+..\Utilities\src\ov7670.c(121): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 1);
+..\Utilities\src\ov7670.c(122): warning:  #223-D: function "delay" declared implicitly
+  	delay(DELAYTIME);
+..\Utilities\src\ov7670.c(124): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 1);
+..\Utilities\src\ov7670.c(130): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 0);
+..\Utilities\src\ov7670.c(134): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 0);
+..\Utilities\src\ov7670.c(144): warning:  #188-D: enumerated type mixed with another type
+  		GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, (((dat<<i)&0x80))>>7);
+..\Utilities\src\ov7670.c(145): warning:  #223-D: function "delay" declared implicitly
+  		delay(DELAYTIME);
+..\Utilities\src\ov7670.c(147): warning:  #188-D: enumerated type mixed with another type
+  		GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 1);
+..\Utilities\src\ov7670.c(150): warning:  #188-D: enumerated type mixed with another type
+  		GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 0);	 
+..\Utilities\src\ov7670.c(153): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 0);
+..\Utilities\src\ov7670.c(164): warning:  #188-D: enumerated type mixed with another type
+  		GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 1);
+..\Utilities\src\ov7670.c(165): warning:  #223-D: function "delay" declared implicitly
+  		delay(DELAYTIME);
+..\Utilities\src\ov7670.c(170): warning:  #188-D: enumerated type mixed with another type
+  		GPIO_WriteBit(
+CCB_SIC_PORT, 
+CCB_SIC_PIN, 0);	 
+..\Utilities\src\ov7670.c(175): warning:  #188-D: enumerated type mixed with another type
+  	GPIO_WriteBit(
+CCB_SID_PORT, 
+CCB_SID_PIN, 0);
+..\Utilities\src\ov7670.c: 33 warnings, 0 errors
+compiling stm32f10x_cec.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_cec.c: 1 warning, 0 errors
+compiling stm32f10x_rcc.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_rcc.c: 1 warning, 0 errors
+compiling stm32f10x_sdio.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_sdio.c: 1 warning, 0 errors
+compiling stm32f10x_gpio.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_gpio.c: 1 warning, 0 errors
+compiling stm32f10x_exti.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_exti.c: 1 warning, 0 errors
+compiling misc.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\misc.c: 1 warning, 0 errors
+compiling stm32f10x_usart.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_usart.c: 1 warning, 0 errors
+compiling core_cm3.c...
+compiling stm32f10x_tim.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Library\src\stm32f10x_tim.c: 1 warning, 0 errors
+compiling Common.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\Common\Common.c: 1 warning, 0 errors
+compiling system_stm32f10x.c...
+..\CMSIS\stm32f10x.h(60): warning:  #47-D: incompatible redefinition of macro "USE_STDPERIPH_DRIVER" 
+  #define USE_STDPERIPH_DRIVER    //me
+..\CMSIS\system_stm32f10x.c: 1 warning, 0 errors
+linking...
+Program Size: Code=33676 RO-data=3492 RW-data=240 ZI-data=2176  
+FromELF: creating hex file...
+".\GPIOøÿ÷∆.axf" - 0 Error(s), 111 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.0.pack
+                Keil::STM32F1xx_DFP@2.4.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  D:/CDEO/Software/Keil/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/CDEO/Software/Keil/Keil/STM32F1xx_DFP/2.4.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

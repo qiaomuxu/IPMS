@@ -1,0 +1,41 @@
+<view class="container">
+  <view class="detail-card" wx:if="{{record}}">
+    <view class="plate-section">
+      <text class="plate-number">{{record.licensePlate}}</text>
+      <text class="plate-color {{plateColorMap[record.plateColor]}}">{{record.plateColor}}</text>
+    </view>
+
+    <view class="info-section">
+      <view class="info-row">
+        <text class="label">状态</text>
+        <view class="status-badge {{record.status}}">
+          <text>{{record.status === 'in' ? '在场' : '已离场'}}</text>
+        </view>
+      </view>
+      <view class="info-row">
+        <text class="label">进场时间</text>
+        <text class="value">{{record.inTime}}</text>
+      </view>
+      <view class="info-row" wx:if="{{record.outTime}}">
+        <text class="label">出场时间</text>
+        <text class="value">{{record.outTime}}</text>
+      </view>
+      <view class="info-row" wx:if="{{record.parkingFee}}">
+        <text class="label">停车费用</text>
+        <text class="value fee">¥{{record.parkingFee}}</text>
+      </view>
+      <view class="info-row" wx:if="{{record.confidence}}">
+        <text class="label">识别置信度</text>
+        <text class="value">{{record.confidence}}%</text>
+      </view>
+    </view>
+
+    <view class="image-section" wx:if="{{record.imagePath}}">
+      <text class="section-title">抓拍图片</text>
+      <image class="capture-image" src="{{imageUrl}}" mode="aspectFit" bindtap="previewImage"></image>
+    </view>
+  </view>
+  <view class="loading" wx:if="{{loading}}">
+    <text>加载中...</text>
+  </view>
+</view>

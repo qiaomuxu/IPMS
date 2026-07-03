@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\STM32单片机编程\By me\车牌识别系列\车牌识别  - （渝、辽、沪、浙、苏、粤）\user\GPIO控制.uvproj
+Project File Date:  03/25/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+..\Utilities\inc\led.h(20): warning:  #1-D: last line of file ends without a newline
+..\Utilities\inc\delay.h(21): warning:  #1-D: last line of file ends without a newline
+..\Utilities\inc\lcd.h(26): warning:  #1-D: last line of file ends without a newline
+..\Utilities\inc\lcd.h(26): warning:  #1-D: last line of file ends without a newline
+ov7670.h(8): warning:  #1295-D: Deprecated declaration OV7670_Gpio_Init - give arg types
+ov7670.h(9): warning:  #1295-D: Deprecated declaration SCCB_SID_change_in - give arg types
+ov7670.h(10): warning:  #1295-D: Deprecated declaration SCCB_SID_change_out - give arg types
+ov7670.h(17): warning:  #1295-D: Deprecated declaration getAck - give arg types
+string.h(6): warning:  #1-D: last line of file ends without a newline
+main.c(56): warning:  #1295-D: Deprecated declaration Show_Title - give arg types
+main.c(104): warning:  #188-D: enumerated type mixed with another type
+main.c(109): warning:  #223-D: function "LCD_SetWindows" declared implicitly
+main.c(110): warning:  #188-D: enumerated type mixed with another type
+main.c(113): warning:  #188-D: enumerated type mixed with another type
+main.c(114): warning:  #188-D: enumerated type mixed with another type
+main.c(115): warning:  #188-D: enumerated type mixed with another type
+main.c(118): warning:  #188-D: enumerated type mixed with another type
+main.c(165): warning:  #223-D: function "LCD_SetWindows" declared implicitly
+main.c(166): warning:  #188-D: enumerated type mixed with another type
+main.c(169): warning:  #188-D: enumerated type mixed with another type
+main.c(170): warning:  #188-D: enumerated type mixed with another type
+main.c(171): warning:  #188-D: enumerated type mixed with another type
+main.c(174): warning:  #188-D: enumerated type mixed with another type
+main.c(288): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(298): warning:  #177-D: variable "b" was declared but never referenced
+main.c(322): warning:  #177-D: variable "Compare_num" was declared but never referenced
+main.c(353): warning:  #177-D: variable "e" was declared but never referenced
+main.c(373): warning:  #177-D: variable "e" was declared but never referenced
+main.c(476): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(485): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(501): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(525): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(566): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(574): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(586): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(460): warning:  #177-D: variable "e" was declared but never referenced
+main.c(463): warning:  #177-D: variable "num1" was declared but never referenced
+main.c(600): warning:  #177-D: variable "e" was declared but never referenced
+main.c(601): warning:  #177-D: variable "i" was declared but never referenced
+main.c(601): warning:  #177-D: variable "u" was declared but never referenced
+main.c(890): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(975): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(1017): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(1047): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(1093): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(1126): warning:  #223-D: function "LCD_ReadPoint" declared implicitly
+main.c(1153): warning:  #223-D: function "LCD_SetWindows" declared implicitly
+main.c(1154): warning:  #188-D: enumerated type mixed with another type
+main.c(1157): warning:  #188-D: enumerated type mixed with another type
+main.c(1158): warning:  #188-D: enumerated type mixed with another type
+main.c(1159): warning:  #188-D: enumerated type mixed with another type
+main.c(1162): warning:  #188-D: enumerated type mixed with another type
+main.c(1259): warning:  #223-D: function "LCD_SetWindows" declared implicitly
+main.c(1260): warning:  #188-D: enumerated type mixed with another type
+main.c(1263): warning:  #188-D: enumerated type mixed with another type
+main.c(1264): warning:  #188-D: enumerated type mixed with another type
+main.c(1265): warning:  #188-D: enumerated type mixed with another type
+main.c(1268): warning:  #188-D: enumerated type mixed with another type
+main.c(1318): warning:  #223-D: function "LCD_SetWindows" declared implicitly
+main.c(1319): warning:  #188-D: enumerated type mixed with another type
+main.c(1322): warning:  #188-D: enumerated type mixed with another type
+main.c(1323): warning:  #188-D: enumerated type mixed with another type
+main.c(1324): warning:  #188-D: enumerated type mixed with another type
+main.c(1327): warning:  #188-D: enumerated type mixed with another type
+main.c(1528): warning:  #951-D: return type of function "main" must be "int"
+main.c(1542): warning:  #188-D: enumerated type mixed with another type
+main.c(1594): warning:  #223-D: function "MoShiShiBie" declared implicitly
+main.c(1591): warning:  #128-D: loop is not reachable
+main.c(1596): warning:  #128-D: loop is not reachable
+main.c(1609): warning:  #223-D: function "String_Picture9" declared implicitly
+main.c(1601): warning:  #128-D: loop is not reachable
+main.c(1613): warning:  #128-D: loop is not reachable
+main.c(1617): warning:  #128-D: loop is not reachable
+main.c(1621): warning:  #128-D: loop is not reachable
+main.c(1628): warning:  #128-D: loop is not reachable
+main.c(1531): warning:  #177-D: variable "i" was declared but never referenced
+compiling string.c...
+string.h(6): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=38446 RO-data=2158 RW-data=6856 ZI-data=2392  
+FromELF: creating hex file...
+".\GPIO控制.axf" - 0 Errors, 77 Warning(s).
+Build target 'Target 1'
+compiling string.c...
+string.h(6): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=38446 RO-data=2158 RW-data=6856 ZI-data=2392  
+FromELF: creating hex file...
+".\GPIO控制.axf" - 0 Errors, 1 Warning(s).

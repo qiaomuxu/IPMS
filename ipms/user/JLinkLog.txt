@@ -1,0 +1,31 @@
+
+T15A88 000:547 SEGGER J-Link V4.96d Log File (0000ms, 0282ms total)
+T15A88 000:547 DLL Compiled: Jan 29 2015 11:45:37 (0000ms, 0282ms total)
+T15A88 000:547 Logging started @ 2021-09-15 09:41 (0001ms, 0283ms total)
+T15A88 000:548 JLINK_SetWarnOutHandler(...) (0000ms, 0283ms total)
+T15A88 000:548 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Apr 21 2017 11:08:06
+Hardware: V9.30
+S/N: 59300616
+Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB  returns O.K. (0275ms, 0558ms total)
+T15A88 000:823 JLINK_SetErrorOutHandler(...) (0000ms, 0558ms total)
+T15A88 000:823 JLINK_ExecCommand("ProjectFile = "F:\成品资料\090、STM32单片机车牌识别摄像头图像识别系统设计\1、程序源文件（C语言，详细备注）\32-090程序源码  - （渝、辽、沪、浙、苏、粤）\user\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0559ms total)
+T15A88 000:824 JLINK_ExecCommand("Device = STM32F103RB", ...)Device "STM32F103RB" selected.  returns 0x00 (0000ms, 0559ms total)
+T15A88 000:824 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0559ms total)
+T15A88 000:824 JLINK_GetHardwareVersion()  returns 0x16B48 (0000ms, 0559ms total)
+T15A88 000:825 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0560ms total)
+T15A88 000:825 JLINK_GetFirmwareString(...) (0000ms, 0560ms total)
+T15A88 000:825 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0560ms total)
+T15A88 000:825 JLINK_GetCompileDateTime() (0000ms, 0560ms total)
+T15A88 000:825 JLINK_GetFirmwareString(...) (0000ms, 0560ms total)
+T15A88 000:825 JLINK_GetHardwareVersion()  returns 0x16B48 (0000ms, 0560ms total)
+T15A88 000:825 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0002ms, 0562ms total)
+T15A88 000:827 JLINK_SetSpeed(20000) (0000ms, 0562ms total)
+T15A88 000:827 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0562ms total)
+T15A88 000:827 JLINK_Reset() >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>
+ (0106ms, 0774ms total)
+T15A88 001:039 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG> (0108ms, 0882ms total)
+T15A88 001:155 JLINK_GetFirmwareString(...) (0000ms, 0882ms total)
+T15A88 003:554 JLINK_Close() (0000ms, 0882ms total)
+T15A88 003:554  (0000ms, 0882ms total)
+T15A88 003:554 Closed (0001ms, 0883ms total)
